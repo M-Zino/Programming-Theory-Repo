@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Sphere : Shape
 {
     public Sphere()
@@ -9,6 +10,7 @@ public class Sphere : Shape
         base.Color = Color.yellow;
     }
 
+    // POLYMORPHISM
     public override string DisplayText()
     {
         return "Hello I am a Sphere";
